@@ -1,4 +1,55 @@
-*{
+* {
   margin: 0;
   padding: 0;
+}
+
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family:cu;
+  src: url(/font/cu.woff);
+  font-display: swap;
+}
+
+#nav {
+  width: 100vw;
+  height: 2rem;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+#navBox {
+  width: 70%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navMe {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+  background-color: rgb(255, 183, 0);
+  font-family: cu;
+  color: white;
+}
+
+.navMe img {
+  height: 2rem;
+}
+
+.navMessage {
+  display: flex;
+  align-items: center;
+}
+
+#back {
+  position: relative;
+}
+
+#pc {
+  position: fixed;
+  top: 2rem;
+  left: 0;
 }
